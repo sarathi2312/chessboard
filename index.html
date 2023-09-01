@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://kit.fontawesome.com/ca24c0c3ed.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <style>
+        .chess-board { border: spacing 10px;border-collapse:collapse; }
+        .chess-board td { border: 1px solid; width: 60px; height: 60px; }
+        .chess-board .white { background:transparent}
+        .chess-board .black { background: #8bcde6; } 
+        .chess-board {
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .blackcoin{
+            padding-left: 7px;
+            font-size: 45px;
+        }
+        .whitecoin{
+            padding-left: 7px;
+            font-size: 45px;
+            color: rgb(141, 140, 156);
+        }
+        body{
+            background-image: url("https://static.displate.com/857x1200/displate/2023-04-28/f959ea1ad14ab7b6a9aaa9056d2e32e2_cd68275967cae37e4cbde4bf3e59f9bd.jpg");
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+        .blackcoin:hover{
+            color: aqua;
+        }
+        .whitecoin:hover{
+            color: rgb(255, 72, 0);
+        }
+        h1:hover{
+            transform: scale(1.4);
+        }
+        td:hover{
+            transform: scale(1.4);
+        }
+    </style>
+</head>
+<body>
+    <h1 style="color: #fff; text-align: center;margin-bottom: 80px;"><b>chess board</b></h1>
+    <table class="chess-board">
+        <tbody>
+            <tr>
+                <th></th>
+                <th>a</th>
+                <th>b</th>
+                <th>c</th>
+                <th>d</th>
+                <th>e</th>
+                <th>f</th>
+                <th>g</th>
+                <th>h</th>
+            </tr>
+        <tr>
+            <th>1</th>
+            <td class="black"><span class="blackcoin">♜</span></td>
+            <td class="white"><span class="blackcoin">♞</span></td>
+            <td class="black"><span class="blackcoin">♝</span></td>
+            <td class="white"><span class="blackcoin">♛</span></td>
+            <td class="black"><span class="blackcoin">♚</span></td>
+            <td class="white"><span class="blackcoin">♝</span></td>
+            <td class="black"><span class="blackcoin">♞</span></td>
+            <td class="white"><span class="blackcoin">♜</span></td>
+        </tr>
+         <tr>
+            <th>2</th>
+            <td class="white"><span class="blackcoin">♟</span></td>
+            <td class="black"><span class="blackcoin">♟</span></td>
+            <td class="white"><span class="blackcoin">♟</span></td>
+            <td class="black"><span class="blackcoin">♟</span></td>
+            <td class="white"><span class="blackcoin">♟</span></td>
+            <td class="black"><span class="blackcoin">♟</span></td>
+            <td class="white"><span class="blackcoin">♟</span></td>
+            <td class="black"><span class="blackcoin">♟</span></td>
+        </tr>
+         <tr>
+            <th>3</th>
+            <td class="black"></td>
+            <td class="white"></td>
+            <td class="black"></td>
+            <td class="white"></td>
+            <td class="black"></td>
+            <td class="white"></td>
+            <td class="black"></td>
+            <td class="white"></td>
+        </tr>
+         <tr>
+            <th>4</th>
+            <td class="white"></td>
+            <td class="black"></td>
+            <td class="white"></td>
+            <td class="black"></td>
+            <td class="white"></td>
+            <td class="black"></td>
+            <td class="white"></td>
+            <td class="black"></td>
+        </tr>
+         <tr>
+            <th>5</th>
+            <td class="black"></td>
+            <td class="white"></td>
+            <td class="black"></td>
+            <td class="white"></td>
+            <td class="black"></td>
+            <td class="white"></td>
+            <td class="black"></td>
+            <td class="white"></td>
+        </tr>
+         <tr>
+            <th>6</th>
+            <td class="white"></td>
+            <td class="black"></td>
+            <td class="white"></td>
+            <td class="black"></td>
+            <td class="white"></td>
+            <td class="black"></td>
+            <td class="white"></td>
+            <td class="black"></td>
+        </tr>
+         <tr>
+            <th>7</th>
+            <td class="black"><span class="whitecoin">♙</span></td>
+            <td class="white"><span class="whitecoin">♙</span></td>
+            <td class="black"><span class="whitecoin">♙</span></td>
+            <td class="white"><span class="whitecoin">♙</span></td>
+            <td class="black"><span class="whitecoin">♙</span></td>
+            <td class="white"><span class="whitecoin">♙</span></td>
+            <td class="black"><span class="whitecoin">♙</span></td>
+            <td class="white"><span class="whitecoin">♙</span></td>
+        </tr>
+         <tr>
+            <th>8</th>
+            <td class="white"><span class="whitecoin">♖</span></td>
+            <td class="black"><span class="whitecoin">♘</span></td>
+            <td class="white"><span class="whitecoin">♗</span></td>
+            <td class="black"><span class="whitecoin">♛</span></td>
+            <td class="white"><span class="whitecoin">♚</span></td>
+            <td class="black"><span class="whitecoin">♗</span></td>
+            <td class="white"><span class="whitecoin">♘</span></td>
+            <td class="black"><span class="whitecoin">♖</span></td>
+        </tr>
+    </table>
+    
+</body>
+</html>
+</body>
+</html>
